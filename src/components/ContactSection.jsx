@@ -54,14 +54,14 @@ export default function ContactSection() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="cs-map" style={{ borderRadius: '12px', overflow: 'hidden' }}>
+            <div className="cs-map" style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid #e5e5e5' }}>
               <iframe
-                src="https://maps.google.com/maps?q=Al-Ghazali+University+Plot+AS-V6+Sector+V+Shahrah+Mullah+Jevan+Ahsanabad+Karachi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=25.0175024,67.0984852+(Al-Ghazali+University)&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                 height="420"
                 style={{ border: 0, width: '100%', display: 'block' }}
                 allowFullScreen=""
                 loading="lazy"
-                title="Al Ghazali University Location Map"
+                title="Al Ghazali University Location Map Pinpoint"
               ></iframe>
             </div>
           </div>

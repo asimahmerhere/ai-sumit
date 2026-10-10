@@ -10,17 +10,17 @@ export default function AboutSection() {
               <img 
                 src="/context/WhatsApp Image 2026-10-09 at 5.14.28 PM.jpeg" 
                 alt="About Summit 1" 
-                style={{ width: '100%', gridColumn: '1 / span 2', borderRadius: '8px', height: 'auto' }} 
+                style={{ width: '100%', height: 'auto', gridColumn: '1 / span 2', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.08)' }} 
               />
               <img 
                 src="/context/WhatsApp Image 2026-10-09 at 5.14.28 PM (1).jpeg" 
                 alt="About Summit 2" 
-                style={{ width: '100%', borderRadius: '8px', height: 'auto' }} 
+                style={{ width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.08)' }} 
               />
               <img 
                 src="/context/WhatsApp Image 2026-10-09 at 5.14.29 PM (1).jpeg" 
                 alt="About Summit 3" 
-                style={{ width: '100%', borderRadius: '8px', height: 'auto' }} 
+                style={{ width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.08)' }} 
               />
             </div>
           </div>
@@ -31,7 +31,7 @@ export default function AboutSection() {
                 We are pleased to inform that <strong>Al Ghazali University</strong> is organizing an international summit of university chancellors from across the Muslim world in collaboration with the <strong>League of Islamic Universities (رابطة الجامعات الإسلامية)</strong> based in Makkah, a subsidiary of the Muslim World League.
               </p>
               <p>
-                This two-day summit focuses on four broad themes: future-proof curriculum development; digital transformation and AI in universities; sustainable development and green economy; and entrepreneurship and community & industrial partnership. About 30 Chancellors, Vice Chancellors, and Presidents of universities including the Islamic University of Medinah (Saudi Arabia), Al-Azhar University (Egypt), Ez-Zitounna University (Tunisia), Gaziantep University (Turkiye), International Islamic University (Malaysia), and University of Palestine (Palestine) have confirmed their participation. Several dignitaries of Pakistan, including federal ministers and state officials, will also attend the summit, IN SHA ALLAH.
+                This two-day summit focuses on four broad themes: future-proof curriculum development; digital transformation and AI in universities; sustainable development and green economy; and entrepreneurship and community & industrial partnership. About 30 Chancellors, Vice Chancellors, and Presidents of universities including the Islamic University of Medinah (Saudi Arabia), Al-Azhar University (Egypt), Ez-Zitounna University (Tunisia), Gaziantep University (Tunisia), International Islamic University (Malaysia), and University of Palestine (Palestine) have confirmed their participation. Several dignitaries of Pakistan, including federal ministers and state officials, will also attend the summit, IN SHA ALLAH.
               </p>
               <p>
                 Placing Pakistan at the center, the summit seeks to find practical ways of integrating into academic curricula and syllabi: patriotism, counter-narrative of private militancy, all-inclusive concept of Islamic welfare state, nurturing the youth in line with national interests, and inculcating importance of national security.

@@ -47,12 +47,12 @@ export default function ScheduleSection() {
                           <div className="col-lg-5">
                             <div className="sc-text">
                               <h4>{theme.title}</h4>
-                              <p style={{ color: '#f44949', fontWeight: '600', marginBottom: '8px' }}>{theme.arabic}</p>
-                              <p style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '12px' }}>{theme.description}</p>
-                              <ul>
+                              <p className="theme-arabic-subtitle">{theme.arabic}</p>
+                              <p>{theme.description}</p>
+                              <ul className="theme-points-list">
                                 {theme.points.map((pt, pIdx) => (
-                                  <li key={pIdx} style={{ fontSize: '13px', lineHeight: '1.5', margin: '4px 0' }}>
-                                    <i className="fa fa-check-circle" style={{ color: '#f44949', marginRight: '6px' }}></i> {pt}
+                                  <li key={pIdx}>
+                                    <i className="fa fa-check-circle"></i> {pt}
                                   </li>
                                 ))}
                               </ul>
@@ -60,9 +60,9 @@ export default function ScheduleSection() {
                           </div>
                           <div className="col-lg-4">
                             <ul className="sc-widget">
-                              <li><i className="fa fa-university"></i> <strong>Focus:</strong> Higher Education Reform</li>
-                              <li><i className="fa fa-globe"></i> <strong>Target:</strong> Islamic World Universities</li>
-                              <li><i className="fa fa-handshake-o"></i> <strong>Alliance:</strong> League of Islamic Universities</li>
+                              <li><i className="fa fa-university"></i> <span className="sc-widget-label">Focus:</span> Higher Education Reform</li>
+                              <li><i className="fa fa-globe"></i> <span className="sc-widget-label">Target:</span> Islamic World Universities</li>
+                              <li><i className="fa fa-handshake-o"></i> <span className="sc-widget-label">Alliance:</span> League of Islamic Universities</li>
                             </ul>
                           </div>
                         </div>
@@ -78,4 +78,5 @@ export default function ScheduleSection() {
     </section>
   );
 }
+
 
